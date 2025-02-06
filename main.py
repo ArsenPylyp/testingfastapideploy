@@ -17,12 +17,3 @@ async def lifespan(app:FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 app.include_router(tasks_router)
-
-
-
-
-
-
-
-#if __name__ == '__main__':
-#    print_hi('PyCharm')
